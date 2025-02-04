@@ -186,3 +186,4 @@ for s = 1:length(subs)
     save(output_file, 'v_trial');
     
 end
+%%data was averaged across trials in input to model as evoked data
