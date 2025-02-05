@@ -14,13 +14,14 @@
 - John D. Griffiths ([jdavidgriffiths@gmail.com](mailto:jdavidgriffiths@gmail.com))  
 
 ---
-![figure1_modified (1)](https://github.com/user-attachments/assets/c0a3da7c-89ad-4dee-8a9c-3988d4545b3b)
 
-## **📖 Overview**  
+## **Overview**  
 This repository contains the complete code for the study:  
 
 > **"Development of Inhibitory Circuits Drives Language Lateralization in Childhood"**  
-> *Ismail et al., [Journal Name, Year]*  
+> *Ismail et al., [Journal Name, Year]*
+
+![figure1_modified (1)](https://github.com/user-attachments/assets/c0a3da7c-89ad-4dee-8a9c-3988d4545b3b)
 
 In this study, we explore the **mechanisms underlying language lateralization** in childhood using **personalized whole-brain network models**. Our findings reveal that interhemispheric inhibitory circuits play a crucial role in shaping lateralized language function, with local inhibition decreasing over development while interhemispheric inhibition increases.  
 
