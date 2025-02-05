@@ -9,7 +9,7 @@
 5. Department of Psychiatry, University of Toronto  
 6. Department of Pediatrics, College of Medicine, University of Cincinnati  
 
-** Corresponding Authors* **    
+**Corresponding Authors**    
 - Darren S. Kadis ([darren.kadis@sickkids.ca](mailto:darren.kadis@sickkids.ca))
 - John D. Griffiths ([jdavidgriffiths@gmail.com](mailto:jdavidgriffiths@gmail.com))  
 
