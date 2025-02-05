@@ -29,7 +29,7 @@ Using **systematic model manipulations** and **virtual transplant experiments**,
 
 ---
 
-## **📂 Repository Structure**  
+## ** Repository Structure**  
 ```
 ├── data/               # Example datasets or links to data sources
 ├── scripts/            # Core analysis and simulation scripts
@@ -41,7 +41,7 @@ Using **systematic model manipulations** and **virtual transplant experiments**,
 
 ---
 
-## **🔧 Installation & Requirements**  
+## ** Installation & Requirements**  
 To run the scripts, install the required dependencies using:  
 
 ```bash
@@ -84,7 +84,7 @@ Jupyter notebooks for exploratory analysis are provided in the `notebooks/` dire
 
 ---
 
-## **🧠 Methods Summary**  
+## ** Methods Summary**  
 Our study employs **personalized whole-brain network models** based on individual structural connectivity and MEG-derived functional activity. The key computational model parameters include:  
 
 - **Local Inhibition (I-P coupling):** Decreases with age but does not directly predict laterality.  
@@ -95,12 +95,12 @@ For more details, see the **Methods** section of the paper.
 
 ---
 
-## **📜 Data Availability**  
-The dataset used in this study is **not publicly available** due to institutional and ethical restrictions. However, data access may be granted upon request to the corresponding authors.  
+## ** Data Availability**  
+The dataset used in this study is **not publicly available** due to institutional and ethical restrictions.  
 
 ---
 
-## **📑 Citation**  
+## ** Citation**  
 If you use this code, please cite our work as follows:  
 
 ```
@@ -116,23 +116,8 @@ If you use this code, please cite our work as follows:
 
 ---
 
-## **📬 Contact & Contributions**  
+## ** Contact **  
 For inquiries, feel free to **open an issue** or contact:  
-- 📧 Minarose Ismail: [your.email@institution.edu](mailto:your.email@institution.edu)  
+- 📧 Minarose Ismail: [minaroseismail@gmail.com](mailto:minaroseismail@gmail.com)  
 - 📧 John D. Griffiths: [jdavidgriffiths@gmail.com](mailto:jdavidgriffiths@gmail.com)  
 - 📧 Darren S. Kadis: [darren.kadis@sickkids.ca](mailto:darren.kadis@sickkids.ca)  
-
-We welcome contributions! If you'd like to contribute, please submit a **pull request**.
-
----
-
-## **📜 License**  
-This repository is licensed under the **MIT License**. See the `LICENSE` file for details.  
-
----
-
-### **⭐ If you find this work useful, please star this repository! ⭐**  
-
----
-
-This structure keeps it **clear, professional, and well-organized** while improving upon the example repo you referenced. Let me know if you'd like any refinements! 🚀
