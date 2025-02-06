@@ -8,8 +8,8 @@
 % Requirements:
 %   - FieldTrip toolbox (https://www.fieldtriptoolbox.org/)
 %   - Data organized by subject in a base directory, with a subfolder "MEG"
-%     containing the dataset(s). The dataset filename contains a 
-%     distinguishing keyword (e.g., 'verbs') used to locate the file.
+%     containing the dataset. The .ds filename contains a 
+%     distinguishing keyword ('verbs') used to locate the file.
 %
 % Instructions:
 %   1. Update the paths for FieldTrip and your data.
