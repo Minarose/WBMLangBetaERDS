@@ -193,13 +193,15 @@ for s = 1:length(subs)
 
     fprintf('Saved NumPy arrays for subject: %s\n', subject);
 
-    %%%%%%% save sensor trial data (un-averaged) for source localization in script 4
-    n_trial = {n_data.trial}.';
-    path = fullfile(dir_folder,'noise_sensor_trials.mat');
-    save(path,'n_trial')
+    %% Save Sensor-Level Data for Source Localization
+    % The following files will be used in script 4 for source localization
+    sensor_verb_file = fullfile(subject_folder, 'sensor_verb.mat');
+    sensor_noise_file = fullfile(subject_folder, 'sensor_noise.mat');
 
-    v_trial = {v_data.trial}.';
-    path = fullfile(dir_folder,'verb_sensor_trials.mat');
-    save(path,'v_trial')
-    
+    save(sensor_verb_file, 'v_data');
+    save(sensor_noise_file, 'n_data');
+
+    fprintf('Saved sensor data for subject %s: \n  - %s \n  - %s \n', ...
+        subject, sensor_verb_file, sensor_noise_file);
+
 end
