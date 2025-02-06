@@ -1,5 +1,5 @@
 # **Development of Inhibitory Circuits Drives Language Lateralization in Childhood**  
-**Minarose M Ismail**, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, M. Parsa Oveisi, Hansel M. Greiner, **John D. Griffiths***, **Darren S. Kadis***
+**Minarose M Ismail**, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, M. Parsa Oveisi, Hansel M. Greiner, John D. Griffiths, Darren S. Kadis
 
 **Affiliations**  
 1. Department of Physiology, University of Toronto  
@@ -8,11 +8,7 @@
 4. Institute of Medical Sciences, University of Toronto  
 5. Department of Psychiatry, University of Toronto  
 6. Department of Pediatrics, College of Medicine, University of Cincinnati  
-
-**Corresponding Authors**    
-- Darren S. Kadis ([darren.kadis@sickkids.ca](mailto:darren.kadis@sickkids.ca))
-- John D. Griffiths ([jdavidgriffiths@gmail.com](mailto:jdavidgriffiths@gmail.com))  
-
+ 
 ---
 
 ## **Overview**  
