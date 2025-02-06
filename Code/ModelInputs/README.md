@@ -6,11 +6,14 @@ This folder contains scripts for preprocessing MEG and diffusion MRI (dMRI) data
 ## **📂 Scripts and Outputs**
 
 ### **1. Early MEG Preprocessing (Script 1: `1_EarlyEvokedMEG.m`)**
-- **Purpose:** Preprocess MEG data, apply ICA artifact rejection, and extract trial-averaged evoked responses for "verb" and "noise" conditions.
+- **Purpose:** Preprocess MEG data, apply ICA artifact rejection, and extract trial-averaged evoked responses for "verb" and "noise" conditions. Save sensor-level MEG data for later source localization in Script 4.
 - **Dependencies:** MATLAB, FieldTrip toolbox.
 - **Outputs (per subject):**
   - `verb.npy` → NumPy array of averaged evoked responses for the "verb" condition.
   - `noise.npy` → NumPy array of averaged evoked responses for the "noise" condition.
+  - 'sensor_verb.mat' → Raw sensor-level data (used in Script 4 for source localization).
+  - 'sensor_noise.mat' → Raw sensor-level data (used in Script 4 for source localization).
+
 
 ---
 
@@ -38,6 +41,7 @@ This folder contains scripts for preprocessing MEG and diffusion MRI (dMRI) data
 | `noise.npy` | `1_EarlyEvokedMEG.m` | Averaged evoked response for noise trials (NumPy format). |
 | `distance.txt` | `2_distancemat.m` | Euclidean distance matrix between brain regions. |
 | `shen_indiv.csv` | `3_WeightsfromDwMRI.sh` | Structural connectivity matrix (weights for modeling). |
+
 
 ---
 
