@@ -109,10 +109,11 @@ for s = 1:length(subs)
     cfg = [];
     cfg.component = reject_x;  % components to remove
     v_data = ft_rejectcomponent(cfg, comp, rs_verb);
+
+    % Extract trials & Average across trials
+    verb_trials = cat(3, v_data.trial{:});  % Convert cell array to 3D matrix
+    verb_avg = mean(verb_trials, 3);  % Average over trials
     
-    % Save the cleaned "verb" sensor data
-    output_file = fullfile(subject_folder, 'sensor_verb.mat');
-    save(output_file, "v_data");
     
     %% Process "Noise" Trials
     % Configure preprocessing parameters for the "noise" condition.
@@ -171,19 +172,25 @@ for s = 1:length(subs)
     cfg = [];
     cfg.component = reject_x; 
     n_data = ft_rejectcomponent(cfg, comp, rs_noise);
+
+    % Extract trials & Average across trials
+    noise_trials = cat(3, n_data.trial{:});  % Convert cell array to 3D matrix
+    noise_avg = mean(noise_trials, 3);  % Average over trials
+
+    %% SAVE AS NUMPY FILES
+    npy_path = fullfile(subject_folder, 'preprocessed');
+    if ~exist(npy_path, 'dir')
+        mkdir(npy_path);
+    end
+
+    % Save averaged time series as .npy
+    verb_npy_file = fullfile(npy_path, 'verb.npy');
+    noise_npy_file = fullfile(npy_path, 'noise.npy');
     
-    % Save the cleaned "noise" sensor data
-    output_file = fullfile(subject_folder, 'sensor_noise.mat');
-    save(output_file, "n_data");
-    
-    % Save trial information for further processing or analysis
-    n_trial = {n_data.trial}.';
-    output_file = fullfile(subject_folder, 'noise_sensor_trials.mat');
-    save(output_file, 'n_trial');
-    
-    v_trial = {v_data.trial}.';
-    output_file = fullfile(subject_folder, 'verb_sensor_trials.mat');
-    save(output_file, 'v_trial');
+    % Use Python's NumPy to save as .npy
+    py.numpy.save(verb_npy_file, verb_avg);
+    py.numpy.save(noise_npy_file, noise_avg);
+
+    fprintf('Saved NumPy arrays for subject: %s\n', subject);
     
 end
-%%data was averaged across trials in input to model as evoked data
