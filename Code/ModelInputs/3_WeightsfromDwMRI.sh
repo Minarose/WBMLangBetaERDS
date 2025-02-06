@@ -31,7 +31,8 @@ module load mrtrix3/3.0.3
 subs=("Subject01" "Subject02" "Subject03")
 
 # Define key directories (update these to match your environment)
-DATA_DIR="/path/to/data"                      # Base directory where subject DTI data are stored
+DATA_DIR="/path/to/data"                      # Base directory where subject DTI, T1 data AND 
+                                              # shen atlas image in indiv space are stored extracted in script 2
 SCRATCH_DIR="/path/to/scratch"                # Local scratch directory for processing
 FINAL_DEST="/path/to/final/destination"       # Final destination for processed data
 SL_ORDER_FILE="/path/to/sl_order.txt"         # Shell order file used for eddy correction (if needed)
@@ -160,7 +161,7 @@ for i in ${!subs[@]}; do
     # file "shen_indiv.csv" is the weights matrix that will be used as input
     # to your model for connectome-based analysis.
     dti_dir="${SCRATCH_DIR}/${subs[$i]}"
-    shen_file=$(find "$dti_dir" -type f -name "*shen_in_individual_space*.nii")
+    shen_file=$(find "$dti_dir" -type f -name "*shen_in_individual_space*.nii")  #this is created in script 2
     if [[ -z "$shen_file" ]]; then
         echo "Error: Shen atlas file not found in DTI directory for subject ${subs[$i]}"
         exit 1
