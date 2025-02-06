@@ -2,7 +2,8 @@
 %
 % This pipeline consists of three parts:
 %
-% 1. Generate a subject-specific Shen atlas in individual space using SPM.
+% 1. Generate a subject-specific Shen atlas in individual space using SPM 
+% (also used to extract weights matrix in script #3).
 % 2. Extract parcel centroids from the subject-specific Shen atlas.
 % 3. Compute the Euclidean distance matrix (the final output) from these centroids.
 %
