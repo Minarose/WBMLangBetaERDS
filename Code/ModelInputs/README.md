@@ -1,4 +1,4 @@
-### Data Preprocessing and Model Inputs**
+### Data Preprocessing and Model Inputs
 
 This folder contains scripts for preprocessing MEG and diffusion MRI (dMRI) data and preparing input files for modeling. 
 ---
