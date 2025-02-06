@@ -114,6 +114,4 @@ If you use this code, please cite our work as follows:
 
 ## ** Contact **  
 For inquiries, feel free to **open an issue** or contact:  
-- 📧 Minarose Ismail: [minaroseismail@gmail.com](mailto:minaroseismail@gmail.com)  
-- 📧 John D. Griffiths: [jdavidgriffiths@gmail.com](mailto:jdavidgriffiths@gmail.com)  
-- 📧 Darren S. Kadis: [darren.kadis@sickkids.ca](mailto:darren.kadis@sickkids.ca)  
+- 📧 Minarose Ismail: [minaroseismail@gmail.com](mailto:minaroseismail@gmail.com) 
