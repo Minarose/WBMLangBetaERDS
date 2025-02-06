@@ -192,5 +192,14 @@ for s = 1:length(subs)
     py.numpy.save(noise_npy_file, noise_avg);
 
     fprintf('Saved NumPy arrays for subject: %s\n', subject);
+
+    %%%%%%% save sensor trial data (un-averaged) for source localization in script 4
+    n_trial = {n_data.trial}.';
+    path = fullfile(dir_folder,'noise_sensor_trials.mat');
+    save(path,'n_trial')
+
+    v_trial = {v_data.trial}.';
+    path = fullfile(dir_folder,'verb_sensor_trials.mat');
+    save(path,'v_trial')
     
 end
