@@ -40,18 +40,7 @@ The dataset used in this study is **not publicly available** due to institutiona
 ---
 
 ## **Citation**  
-If you use this code, please cite our work as follows:  
-
-```
-@article{Ismail2025,
-  author = {Minarose M. Ismail, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, 
-            M. Parsa Oveisi, Hansel M. Greiner, John D. Griffiths, Darren S. Kadis},
-  title = {Development of Inhibitory Circuits Drives Language Lateralization in Childhood},
-  journal = {Journal Name},
-  year = {2025},
-  doi = {XXXX}
-}
-```
+Coming soon ...hopefully
 
 ---
 
