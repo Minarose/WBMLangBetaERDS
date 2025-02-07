@@ -177,6 +177,10 @@ for s = 1:length(subs)
     noise_trials = cat(3, n_data.trial{:});  % Convert cell array to 3D matrix
     noise_avg = mean(noise_trials, 3);  % Average over trials
 
+    % Select only first 500ms (for model fitting)
+    noise_avg_500ms = noise_avg(:, 1:500);  
+    verb_avg_500ms = verb_avg(:, 1:500);
+
     %% SAVE AS NUMPY FILES
     npy_path = fullfile(subject_folder, 'preprocessed');
     if ~exist(npy_path, 'dir')
@@ -188,8 +192,8 @@ for s = 1:length(subs)
     noise_npy_file = fullfile(npy_path, 'noise.npy');
     
     % Use Python's NumPy to save as .npy
-    py.numpy.save(verb_npy_file, verb_avg);
-    py.numpy.save(noise_npy_file, noise_avg);
+    py.numpy.save(verb_npy_file, verb_avg_500ms);
+    py.numpy.save(noise_npy_file, noise_avg_500ms);
 
     fprintf('Saved NumPy arrays for subject: %s\n', subject);
 
