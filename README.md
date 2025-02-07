@@ -44,6 +44,6 @@ Coming soon ...hopefully
 
 ---
 
-## **Contact **  
+## **Contact**  
 For inquiries, feel free to **open an issue** or contact:  
 - 📧 Minarose Ismail: [minaroseismail@gmail.com](mailto:minaroseismail@gmail.com) 
