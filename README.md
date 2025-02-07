@@ -25,69 +25,12 @@ Using **systematic model manipulations** and **virtual transplant experiments**,
 
 ---
 
-## ** Repository Structure**  
+## **Repository Structure**  
 ```
-├── data/               # Example datasets or links to data sources
-├── scripts/            # Core analysis and simulation scripts
-├── notebooks/          # Jupyter/Colab notebooks for step-by-step execution
-├── results/            # Figures and output files
+├── Code/               # preprocessing, modelling, analysis & simulation scripts
+├── Figures/            # Core analysis and simulation scripts
 ├── README.md           # This file
-└── LICENSE             # Licensing information
 ```
-
----
-
-## ** Installation & Requirements**  
-To run the scripts, install the required dependencies using:  
-
-```bash
-pip install -r requirements.txt
-```
-Alternatively, manually install key dependencies:  
-
-```bash
-pip install numpy pandas matplotlib scipy mne
-```
-
-If using Jupyter notebooks, install Jupyter:  
-```bash
-pip install jupyter
-```
-
----
-
-## **📊 Usage**  
-
-### **1️⃣ Data Preprocessing**  
-Preprocess MEG and MRI data using the following script:  
-```bash
-python scripts/preprocess_data.py
-```
-
-### **2️⃣ Running the Computational Model**  
-Execute the whole-brain network model simulations:  
-```bash
-python scripts/run_model.py
-```
-
-### **3️⃣ Analyzing and Visualizing Results**  
-Generate plots and statistical analyses:  
-```bash
-python scripts/plot_results.py
-```
-
-Jupyter notebooks for exploratory analysis are provided in the `notebooks/` directory.
-
----
-
-## ** Methods Summary**  
-Our study employs **personalized whole-brain network models** based on individual structural connectivity and MEG-derived functional activity. The key computational model parameters include:  
-
-- **Local Inhibition (I-P coupling):** Decreases with age but does not directly predict laterality.  
-- **Interhemispheric Inhibition (P-I coupling):** Increases with age and correlates with laterality.  
-- **Model Manipulations:** Virtual lesion and transplant experiments to assess causality in lateralization.  
-
-For more details, see the **Methods** section of the paper.
 
 ---
 
@@ -101,7 +44,7 @@ If you use this code, please cite our work as follows:
 
 ```
 @article{Ismail2025,
-  author = {Minarose Ismail, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, 
+  author = {Minarose M. Ismail, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, 
             M. Parsa Oveisi, Hansel M. Greiner, John D. Griffiths, Darren S. Kadis},
   title = {Development of Inhibitory Circuits Drives Language Lateralization in Childhood},
   journal = {Journal Name},
