@@ -46,4 +46,4 @@ Coming soon ...hopefully
 
 ## **Contact**  
 For inquiries, feel free to **open an issue** or contact:  
-- 📧 Minarose Ismail: [minaroseismail@mail.utoronto.ca](mailto:minarose.ismail@mail.utoronto.ca) 
+- 📧 Minarose Ismail: [minarose.ismail@mail.utoronto.ca](mailto:minarose.ismail@mail.utoronto.ca) 
