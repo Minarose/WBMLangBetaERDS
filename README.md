@@ -34,12 +34,12 @@ Using **systematic model manipulations** and **virtual transplant experiments**,
 
 ---
 
-## ** Data Availability**  
+## **Data Availability**  
 The dataset used in this study is **not publicly available** due to institutional and ethical restrictions.  
 
 ---
 
-## ** Citation**  
+## **Citation**  
 If you use this code, please cite our work as follows:  
 
 ```
