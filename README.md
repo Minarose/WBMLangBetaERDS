@@ -55,6 +55,6 @@ If you use this code, please cite our work as follows:
 
 ---
 
-## ** Contact **  
+## **Contact **  
 For inquiries, feel free to **open an issue** or contact:  
 - 📧 Minarose Ismail: [minaroseismail@gmail.com](mailto:minaroseismail@gmail.com) 
