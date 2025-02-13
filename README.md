@@ -28,7 +28,7 @@ Using **systematic model manipulations** and **virtual transplant experiments**,
 ## **Repository Structure**  
 ```
 ├── Code/               # preprocessing, modelling, analysis & simulation scripts
-├── Figures/            # Core analysis and simulation scripts
+├── Figures/            # Figures in the paper
 ├── README.md           # This file
 ```
 
