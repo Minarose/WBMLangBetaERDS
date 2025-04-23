@@ -1581,4 +1581,4 @@ with open(filename, 'wb') as f:
 source_file = output_path  + '/'   + sub + '_' +run+'_pred1500_source_ts.npy'
 sensor_file = output_path  + '/'+ sub + '_' +run+'_pred1500_sensor_ts.npy'
 np.save(source_file,F.output_sim.P_test)
-np.save(sensor_file,F.output_sim.meg_test)
+np.save(sensor_file,F.output_sim.eeg_test)
