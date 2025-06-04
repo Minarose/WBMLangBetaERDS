@@ -1,20 +1,20 @@
-# **Development of Inhibitory Circuits Drives Language Lateralization in Childhood**  
-**Minarose M Ismail**, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, M. Parsa Oveisi, Hansel M. Greiner, John D. Griffiths, Darren S. Kadis
+# **Developmental Disinhibition Gates Language Lateralization in Childhood**  
+**Minarose M Ismail**, Davide Momi, Zheng Wang, Sorenza P. Bastiaens, M. Parsa Oveisi, Hansel M. Greiner, Donald J. Mabbott, John D. Griffiths, Darren S. Kadis
 
 **Affiliations**  
 1. Department of Physiology, University of Toronto  
 2. Neurosciences & Mental Health, The Hospital for Sick Children, Toronto  
 3. Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health, Toronto  
-4. Institute of Medical Sciences, University of Toronto  
-5. Department of Psychiatry, University of Toronto  
-6. Department of Pediatrics, College of Medicine, University of Cincinnati  
- 
+4. Institute of Medical Sciences, University of Toronto
+5. Department of Psychology, University of Toronto
+6. Department of Psychiatry, University of Toronto  
+7. Department of Pediatrics, College of Medicine, University of Cincinnati 
 ---
 
 ## **Overview**  
 This repository contains the complete code for the study:  
 
-> **"Development of Inhibitory Circuits Drives Language Lateralization in Childhood"**  
+> **"Developmental Disinhibition Gates Language Lateralization in Childhood"**  
 > *Ismail et al., 2025*
 
 ![figure1_modified (1)](https://github.com/user-attachments/assets/c0a3da7c-89ad-4dee-8a9c-3988d4545b3b)
