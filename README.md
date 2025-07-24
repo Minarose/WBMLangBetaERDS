@@ -28,7 +28,6 @@ Early in life, asymmetries in interhemispheric inhibition are present, with stro
 ## **Repository Structure**  
 ```
 ├── Code/               # preprocessing, modelling, analysis & simulation scripts
-├── Figures/            # Figures in the paper
 ├── README.md           # This file
 ```
 
