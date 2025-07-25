@@ -27,8 +27,9 @@ Early in life, asymmetries in interhemispheric inhibition are present, with stro
 
 ## **Repository Structure**  
 ```
-├── Code/               # preprocessing, modelling, analysis & simulation scripts
-├── README.md           # This file
+├── Code/ # Preprocessing, modelling, analysis & simulation scripts
+├── Data/ # Extracted model parameters, laterality indices, and age
+├── README.md # This file
 ```
 
 ---
@@ -36,10 +37,12 @@ Early in life, asymmetries in interhemispheric inhibition are present, with stro
 ## **Data Availability**  
 The dataset used in this study is **not publicly available** due to institutional and ethical restrictions.  
 
+However, we provide a summary file in the `Data/` directory containing the extracted model parameters, empirical and simulated laterality indices, and subject age. This allows for full replication of the group-level analyses and figures in the manuscript.
+
 ---
 
 ## **Citation**  
-Coming soon ...hopefully
+Coming soon ... 
 
 ---
 
