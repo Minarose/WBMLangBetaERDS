@@ -1,8 +1,5 @@
 # Extracted Model Parameters and Laterality Indices
 This folder contains a summary DataFrame of subject-specific parameters and laterality indices extracted from personalized whole-brain neurophysiological models fit using the WBMLangBetaERDS pipeline.
-# 📊 Extracted Model Parameters and Laterality Indices
-
-This repository contains a summary DataFrame of subject-specific parameters and laterality indices extracted from personalized whole-brain neurophysiological models fit using the [WBMLangBetaERDS](https://github.com/Minarose/WBMLangBetaERDS) pipeline.
 
 ## Why Only Parameters?
 
