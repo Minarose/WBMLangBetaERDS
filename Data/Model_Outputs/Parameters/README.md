@@ -1,8 +1,6 @@
 # Extracted Model Parameters and Laterality Indices
 This folder contains a summary DataFrame of subject-specific parameters and laterality indices extracted from personalized whole-brain neurophysiological models fit using the WBMLangBetaERDS pipeline.
 
-## Why Only Parameters?
-
 Due to file size limitations, the full fitted models (2 conditions × 43 subjects) are not included in this repository. Instead, we provide the key parameters extracted from each subject’s fitted model, alongside empirical and simulated Laterality Indices (LI) and subject age. These features are sufficient to reproduce all group-level and subject-level analyses shown in the manuscript.
 
 ## What's Included?
