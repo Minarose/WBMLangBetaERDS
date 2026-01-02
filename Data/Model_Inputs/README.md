@@ -1,6 +1,6 @@
 # Model Inputs - Subject File Descriptions
 
-This directory contains subject-specific input files to construct the individual whole-brain model. Each subject folder (e.g., `CTL_01_16F/`) contains the following files:
+This directory contains subject-specific input files to construct the individual whole-brain model. Each subject folder (e.g., `CTL_01_16/`) contains the following files:
 
 ---
 
@@ -65,11 +65,10 @@ The main model fitting script (`JR_Model_Fitting.py`) uses the following files:
 
 ## **File Naming Conventions**
 
-- Subject folders are named: `CTL_XX_YYZ/` where:
+- Subject folders are named: `CTL_XX_YY/` where:
   - `CTL` = Control group
   - `XX` = Subject number
   - `YY` = Age
-  - `Z` = Gender (M/F)
 
 - Some subjects may have additional subdirectories (e.g., `FULL/`) containing extended time series data
 
