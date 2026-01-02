@@ -35,9 +35,31 @@ Early in life, asymmetries in interhemispheric inhibition are present, with stro
 ---
 
 ## **Data Availability**  
-The dataset used in this study is **not publicly available** due to institutional and ethical restrictions.  
 
-However, we provide a summary file in the `Data/` directory containing the extracted model parameters, empirical and simulated laterality indices, and subject age. This allows for full replication of the group-level analyses and figures in the manuscript.
+### **Raw Data**
+The raw MEG and MRI data used in this study are **not publicly available** due to institutional and ethical restrictions.
+
+### **Preprocessed Model Inputs (Provided)**
+We provide all **preprocessed model inputs** required to run the model fitting pipeline:
+- **Location:** `Data/Model_Inputs/`
+- **Contents:** 
+  - Trial-averaged evoked MEG responses (`verb_evoked.npy`, `noise_evoked.npy`)
+  - Structural connectivity matrices (`shen_indiv.csv` or `weights.csv`)
+  - Distance matrices (`distance.txt`)
+  - Leadfield matrices (`leadfield_3d.mat`)
+- **See:** `Data/Model_Inputs/README.md` for detailed file descriptions
+
+These preprocessed inputs allow you to:
+- Run the model fitting pipeline (`Code/JR_Model_Fitting.py`)
+- Generate your own model simulations
+- Reproduce the model fitting process
+
+### **Model Outputs (Provided)**
+We also provide:
+- **Extracted Model Parameters:** `Data/Model_Outputs/Parameters/subject_data.pkl` - Summary DataFrame with fitted model parameters, laterality indices, and subject age
+- **Simulations:** `Data/Model_Outputs/Simulations/` - Simulated time series in source and sensor space
+
+These outputs allow for full replication of the group-level analyses and figures in the manuscript.
 
 ---
 
