@@ -15,7 +15,7 @@
 This repository contains the complete code for the study:  
 
 > **"Developmental Disinhibition Gates Language Lateralization in Childhood"**  
-> *Ismail et al., 2025*
+> *Ismail et al., 2026*
 
 ![figure1_modified (1)](https://github.com/user-attachments/assets/c0a3da7c-89ad-4dee-8a9c-3988d4545b3b)
 
