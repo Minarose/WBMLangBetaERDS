@@ -15,7 +15,8 @@
 This repository contains the complete code for the study:  
 
 > **"Developmental Disinhibition Gates Language Lateralization in Childhood"**  
-> *Ismail et al., 2026*
+> *Ismail et al., 2026 Nature Communications*
+> https://www.nature.com/articles/s41467-026-71918-7
 
 ![figure1_modified (1)](https://github.com/user-attachments/assets/c0a3da7c-89ad-4dee-8a9c-3988d4545b3b)
 
@@ -64,7 +65,7 @@ These outputs allow for full replication of the group-level analyses and figures
 ---
 
 ## **Citation**  
-Coming soon ... 
+Ismail, M.M., Momi, D., Wang, Z. et al. Developmental disinhibition gates language lateralization in childhood. Nat Commun 17, 5819 (2026). https://doi.org/10.1038/s41467-026-71918-7
 
 ---
 
